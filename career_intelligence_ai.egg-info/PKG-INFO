@@ -1,0 +1,11 @@
+Metadata-Version: 2.4
+Name: career-intelligence-ai
+Version: 0.3.0
+Requires-Python: >=3.11
+Provides-Extra: api
+Requires-Dist: fastapi<1,>=0.115; extra == "api"
+Requires-Dist: uvicorn<1,>=0.30; extra == "api"
+Requires-Dist: pypdf<7,>=6; extra == "api"
+Requires-Dist: defusedxml<1,>=0.7; extra == "api"
+Provides-Extra: test
+Requires-Dist: httpx<1,>=0.28; extra == "test"

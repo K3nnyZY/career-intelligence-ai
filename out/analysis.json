@@ -1,0 +1,110 @@
+{
+  "jobs": [
+    {
+      "title": "AI Engineer",
+      "company": "Empresa demo A",
+      "description": "Python SQL Databricks PySpark Delta Lake MLflow RAG LLMs",
+      "source_url": "",
+      "job_id": "97184ca6a6393e85eee1455241615021298b0f7b7fd78eb6ed39af6f111a4ad8",
+      "skills": [
+        "databricks",
+        "delta lake",
+        "llm",
+        "mlflow",
+        "pyspark",
+        "python",
+        "rag",
+        "sql"
+      ],
+      "match": {
+        "matched_skills": [
+          "python",
+          "rag",
+          "sql"
+        ],
+        "missing_skills": [
+          "databricks",
+          "delta lake",
+          "llm",
+          "mlflow",
+          "pyspark"
+        ],
+        "skill_coverage": 0.375,
+        "method": "keyword_mentions_v1"
+      }
+    },
+    {
+      "title": "Backend AI",
+      "company": "Empresa demo B",
+      "description": "Python FastAPI Docker LangGraph RAG",
+      "source_url": "",
+      "job_id": "23ce084a9b9140cbaeed60b0a8e6c063281cb78c7c9d7a15529c1c2b74b3fbac",
+      "skills": [
+        "docker",
+        "fastapi",
+        "langgraph",
+        "python",
+        "rag"
+      ],
+      "match": {
+        "matched_skills": [
+          "docker",
+          "fastapi",
+          "python",
+          "rag"
+        ],
+        "missing_skills": [
+          "langgraph"
+        ],
+        "skill_coverage": 0.8,
+        "method": "keyword_mentions_v1"
+      }
+    },
+    {
+      "title": "Data Engineer",
+      "company": "Empresa demo C",
+      "description": "SQL Databricks PySpark AWS",
+      "source_url": "",
+      "job_id": "7b9066466197e9e9c3dbe765ff93a3e1547f4ff45204866e5f31bea5c1f3b178",
+      "skills": [
+        "aws",
+        "databricks",
+        "pyspark",
+        "sql"
+      ],
+      "match": {
+        "matched_skills": [
+          "sql"
+        ],
+        "missing_skills": [
+          "aws",
+          "databricks",
+          "pyspark"
+        ],
+        "skill_coverage": 0.25,
+        "method": "keyword_mentions_v1"
+      }
+    }
+  ],
+  "skill_demand": {
+    "aws": 1,
+    "databricks": 2,
+    "delta lake": 1,
+    "docker": 1,
+    "fastapi": 1,
+    "langgraph": 1,
+    "llm": 1,
+    "mlflow": 1,
+    "pyspark": 2,
+    "python": 2,
+    "rag": 2,
+    "sql": 2
+  },
+  "quality": {
+    "input_rows": 3,
+    "accepted_unique": 3,
+    "rejected_rows": 0,
+    "duplicates": 0
+  },
+  "rejected": []
+}

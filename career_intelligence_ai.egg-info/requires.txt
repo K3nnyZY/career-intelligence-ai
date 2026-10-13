@@ -1,0 +1,9 @@
+
+[api]
+fastapi<1,>=0.115
+uvicorn<1,>=0.30
+pypdf<7,>=6
+defusedxml<1,>=0.7
+
+[test]
+httpx<1,>=0.28

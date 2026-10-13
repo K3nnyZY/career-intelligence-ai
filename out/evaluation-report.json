@@ -1,0 +1,200 @@
+{
+  "report_version": "1.0",
+  "dataset_id": "synthetic_smoke_v1",
+  "dataset_sha256": "024dca9c1d7be939ab490789bbb8c96d69310fecb92fd1c0526a338ceee79343",
+  "extractor_version": "evidence_rules_v1",
+  "taxonomy_version": "6e19e6c91953",
+  "source_counts": {
+    "real": 0,
+    "synthetic": 8
+  },
+  "extraction": {
+    "true_positives": 24,
+    "false_positives": 0,
+    "false_negatives": 0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "by_kind": {
+      "cv": {
+        "true_positives": 11,
+        "false_positives": 0,
+        "false_negatives": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "vacancy": {
+        "true_positives": 13,
+        "false_positives": 0,
+        "false_negatives": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      }
+    },
+    "case_count": 8,
+    "error_count": 0,
+    "latency_ms": {
+      "p50": 0.051,
+      "p95": 0.241
+    },
+    "requirement_accuracy": 1.0,
+    "requirement_labels": 13
+  },
+  "matching": {
+    "true_positives": 10,
+    "false_positives": 0,
+    "false_negatives": 0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "comparison_count": 3,
+    "exact_match_rate": 1.0,
+    "error_count": 0,
+    "latency_ms": {
+      "p50": 0.1,
+      "p95": 0.102
+    }
+  },
+  "cases": [
+    {
+      "case_id": "cv_01",
+      "kind": "cv",
+      "true_positives": 5,
+      "false_positives": 0,
+      "false_negatives": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "omitted": [],
+      "incorrect": [],
+      "requirement_errors": [],
+      "latency_ms": 0.136
+    },
+    {
+      "case_id": "cv_02",
+      "kind": "cv",
+      "true_positives": 2,
+      "false_positives": 0,
+      "false_negatives": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "omitted": [],
+      "incorrect": [],
+      "requirement_errors": [],
+      "latency_ms": 0.051
+    },
+    {
+      "case_id": "cv_03",
+      "kind": "cv",
+      "true_positives": 4,
+      "false_positives": 0,
+      "false_negatives": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "omitted": [],
+      "incorrect": [],
+      "requirement_errors": [],
+      "latency_ms": 0.037
+    },
+    {
+      "case_id": "job_01",
+      "kind": "vacancy",
+      "true_positives": 5,
+      "false_positives": 0,
+      "false_negatives": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "omitted": [],
+      "incorrect": [],
+      "requirement_errors": [],
+      "latency_ms": 0.241
+    },
+    {
+      "case_id": "job_02",
+      "kind": "vacancy",
+      "true_positives": 3,
+      "false_positives": 0,
+      "false_negatives": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "omitted": [],
+      "incorrect": [],
+      "requirement_errors": [],
+      "latency_ms": 0.228
+    },
+    {
+      "case_id": "job_03",
+      "kind": "vacancy",
+      "true_positives": 4,
+      "false_positives": 0,
+      "false_negatives": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "omitted": [],
+      "incorrect": [],
+      "requirement_errors": [],
+      "latency_ms": 0.041
+    },
+    {
+      "case_id": "job_04",
+      "kind": "vacancy",
+      "true_positives": 1,
+      "false_positives": 0,
+      "false_negatives": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "omitted": [],
+      "incorrect": [],
+      "requirement_errors": [],
+      "latency_ms": 0.102
+    },
+    {
+      "case_id": "job_05",
+      "kind": "vacancy",
+      "true_positives": 0,
+      "false_positives": 0,
+      "false_negatives": 0,
+      "precision": null,
+      "recall": null,
+      "f1": null,
+      "omitted": [],
+      "incorrect": [],
+      "requirement_errors": [],
+      "latency_ms": 0.02
+    }
+  ],
+  "comparisons": [
+    {
+      "comparison_id": "match_01",
+      "exact_match": true,
+      "false_matches": [],
+      "missed_matches": [],
+      "missing_label_errors": [],
+      "latency_ms": 0.102
+    },
+    {
+      "comparison_id": "match_02",
+      "exact_match": true,
+      "false_matches": [],
+      "missed_matches": [],
+      "missing_label_errors": [],
+      "latency_ms": 0.1
+    },
+    {
+      "comparison_id": "match_03",
+      "exact_match": true,
+      "false_matches": [],
+      "missed_matches": [],
+      "missing_label_errors": [],
+      "latency_ms": 0.077
+    }
+  ]
+}

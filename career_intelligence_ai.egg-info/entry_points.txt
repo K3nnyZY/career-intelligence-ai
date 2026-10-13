@@ -1,0 +1,3 @@
+[console_scripts]
+career-ai = career_ai.cli:main
+career-ai-evaluate = career_ai.evaluation:main

@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0",
+  "dataset_id": "synthetic_smoke_v1",
+  "cases": [
+    {"case_id": "cv_01", "kind": "cv", "text": "Implementé pipelines ETL con Python y SQL.\nMigré procesos a AWS y Apache Airflow.", "expected_skills": ["etl", "python", "sql", "aws", "airflow"], "source": {"type": "synthetic"}},
+    {"case_id": "cv_02", "kind": "cv", "text": "Built data pipelines with PySpark and Delta Lake.\nNo tengo experiencia en Kafka.", "expected_skills": ["pyspark", "delta lake"], "source": {"type": "synthetic"}},
+    {"case_id": "cv_03", "kind": "cv", "text": "Diseñé modelos SQL con dbt y Snowflake. Uso Git.", "expected_skills": ["sql", "dbt", "snowflake", "git"], "source": {"type": "synthetic"}},
+    {"case_id": "job_01", "kind": "vacancy", "text": "Requisitos obligatorios:\nPython, SQL y ETL\nDeseables:\nAirflow y Docker", "expected_skills": ["python", "sql", "etl", "airflow", "docker"], "expected_requirements": {"python": "required", "sql": "required", "etl": "required", "airflow": "desirable", "docker": "desirable"}, "source": {"type": "synthetic"}},
+    {"case_id": "job_02", "kind": "vacancy", "text": "Required:\nPySpark and Delta Lake\nNice to have:\nKafka\nPython is not required.", "expected_skills": ["pyspark", "delta lake", "kafka"], "expected_requirements": {"pyspark": "required", "delta lake": "required", "kafka": "desirable"}, "source": {"type": "synthetic"}},
+    {"case_id": "job_03", "kind": "vacancy", "text": "SQL and dbt required. Snowflake preferred. Git.", "expected_skills": ["sql", "dbt", "snowflake", "git"], "expected_requirements": {"sql": "required", "dbt": "required", "snowflake": "desirable", "git": "unspecified"}, "source": {"type": "synthetic"}},
+    {"case_id": "job_04", "kind": "vacancy", "text": "NoSQL pythonista sparkles. No se requiere Python, pero SQL obligatorio.", "expected_skills": ["sql"], "expected_requirements": {"sql": "required"}, "source": {"type": "synthetic"}},
+    {"case_id": "job_05", "kind": "vacancy", "text": "Buscamos buena comunicación y colaboración.", "expected_skills": [], "expected_requirements": {}, "source": {"type": "synthetic"}}
+  ],
+  "comparisons": [
+    {"comparison_id": "match_01", "cv_id": "cv_01", "vacancy_id": "job_01", "expected_matched": ["python", "sql", "etl", "airflow"], "expected_missing": ["docker"]},
+    {"comparison_id": "match_02", "cv_id": "cv_02", "vacancy_id": "job_02", "expected_matched": ["pyspark", "delta lake"], "expected_missing": ["kafka"]},
+    {"comparison_id": "match_03", "cv_id": "cv_03", "vacancy_id": "job_03", "expected_matched": ["sql", "dbt", "snowflake", "git"], "expected_missing": []}
+  ]
+}
